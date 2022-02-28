@@ -1,0 +1,31 @@
+#barra_acessibilidade {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+ 
+}
+
+#menu {
+    display: none;
+}
+
+
+#campos {
+    color: grey;
+}
+
+#erro {
+    visibility: visible;
+    color: red;
+}
+
+#nome input {
+    border-color: green;
+    
+}
+
+.form-control.error input {
+    border-color: red;
+}

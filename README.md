@@ -1,2 +1,2 @@
-# projeto-atividade-3-toledo
- JavaScript
+# atividade-3-toledo
+ Desenvolvimento Web front-end
