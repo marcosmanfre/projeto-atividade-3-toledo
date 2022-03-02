@@ -36,6 +36,8 @@ textarea.form-control.error {
 
 .input-erro {
     display: none;
+    visibility: hidden;
+
 }
 
 

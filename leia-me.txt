@@ -1,3 +1,3 @@
-Link Heroku: https://atividade-3-javascript.herokuapp.com/index.html
+Link Heroku: https://projeto-atividade-3-toledo.herokuapp.com/contato.html#
 
-Link GitHub: https://github.com/marcosmanfre/projeto-atividade-3
+Link GitHub: https://github.com/marcosmanfre/projeto-atividade-3-toledo
