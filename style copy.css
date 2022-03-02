@@ -21,36 +21,29 @@ input.form-control.success {
     border-color: green
 }
 
-textarea.form-control.success {
-    border-color: green
-}
-
-
 input.form-control.error {
     border-color: red;
 }
 
-textarea.form-control.error {
-    border-color: red
+input ~ span {
+    visibility: hidden;
 }
 
-.input-erro {
-    display: none;
+textarea ~ span {
+    visibility: hidden;
 }
 
 
-input.form-control.error ~ .input-erro {
+input ~ span.error {
+    visibility: visible;
     color: red;
-    display: block;
-    
 }
 
-textarea.form-control.error ~ .input-erro {
+
+textarea ~ span.error {
+    visibility: visible;
     color: red;
-    display: block;
-    
 }
-
 
 
 

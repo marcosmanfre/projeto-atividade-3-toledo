@@ -1,39 +1,15 @@
-const formulário = document.getElementById('formulário');
-const nome = document.getElementById('nome');
-const email = document.getElementById('email');
-const mensagem = document.getElementById('mensagem');
+function valida(input) {
+    const tipoDeInput = input.dataset.tipo
 
-formulário.addEventListener('submit', e => {
-    e.preventDefault();
+    if(validadores[tipoDeInput]) {
+        validadores[tipoDeInput](input)
+    }
 
-    checkInputs();
-});
+    if(input.validity.valid) {
+        input.getElementsByClassName('form-control').classList.remove('form-control.error')
+       
+    } else {
+        input.getElementsByClassName('form-control').classList.add('form-control.error')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.querySelector("form")
-.addEventListener("submit", event => {
-    console.log("enviar o formulário")
-
-    event.preventDefault()
-
-
-})
-
+    }
+}
