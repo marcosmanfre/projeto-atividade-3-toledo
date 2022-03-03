@@ -1,15 +1,25 @@
-function valida(input) {
-    const tipoDeInput = input.dataset.tipo
 
-    if(validadores[tipoDeInput]) {
-        validadores[tipoDeInput](input)
+function validar() {
+    var nome = document.getElementById('nome');
+    var email = document.getElementById('email');
+    var mensagem = document.getElementById('mensagem');
+
+    if (nome.value == '') {
+        alert('nome obrigatório');
+
+        nome.focus();
+        return;
     }
-
-    if(input.validity.valid) {
-        input.getElementsByClassName('form-control').classList.remove('form-control.error')
-       
-    } else {
-        input.getElementsByClassName('form-control').classList.add('form-control.error')
-
+    if (email.value == '') {
+        alert('Email obrigatório');
+        email.focus();
+        return;
+    }
+    if (mensagem.value == '') {
+        alert('digitar mensagem');
+        mensagem.focus();
+        return;
     }
 }
+
+
