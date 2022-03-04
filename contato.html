@@ -31,7 +31,7 @@
                     <h2 id="menu">Menu</h2>
                     <nav class="navbar-expand-sm navbar-expand-lg navbar-light bg-light">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                            <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">                            
                           <ul class="navbar-nav">
@@ -49,19 +49,19 @@
                 <h3 id="formulario">Formulário de Contato</h3>
                     <form action="#" method="post">      
                         <div class="form-group row was-validated">            
-                            <label for="validationTextarea" class="input-label col-sm-2 col-form-label col-form-label-sm">Nome*</label>
-                            <div class="col-sm-10 input-container--invalido">
-                                <input id="validationTextarea" type="text" class="form-control has-success" placeholder="Digite seu nome" required><br>
-                                <span class="invalid-feedback">Campo nome obrigatório</span>
+                            <label for="validationNome" class="col-sm-2 col-form-label col-form-label-sm">Nome*</label>
+                            <div class="col-sm-10">
+                                <input id="validationNome" type="text" class="form-control has-success" placeholder="Digite seu nome" required>
+                                <span class="invalid-feedback">Campo nome obrigatório.</span>
                             </div>
                         </div>  
                         
 
                         <div class="form-group row was-validated">  
-                            <label for="validationTextarea" class="col-sm-2 col-form-label col-form-label-sm">Email*</label>
+                            <label for="validationEmail" class="col-sm-2 col-form-label col-form-label-sm">Email*</label>
                             <div class="col-sm-10">
-                                <input id="validationTextarea" type="email" class="form-control has-success" placeholder="Digite seu email" required><br>
-                                <span class="invalid-feedback">Campo email obrigatório</span>
+                                <input id="validationEmail" type="email" class="form-control has-success" placeholder="Digite seu email" required>
+                                <span class="invalid-feedback">Campo email obrigatório.</span>
                             </div>
                         </div> 
 
@@ -69,22 +69,13 @@
                             <label for="validationTextarea" class="col-sm-2 col-form-label col-form-label-sm">Mensagem*</label>
                             <div class="col-sm-10">
                                 <textarea id="validationTextarea" class="form-control has-success" required></textarea>
-                                <span class="invalid-feedback">Campo mensagem obrigatório </span></br>
-                          
-                        
-                                
-
-                            <input onclick='validar()' type="submit" value="Enviar" class="btn btn-primary my-1"></br>
+                                <span class="invalid-feedback">Campo mensagem obrigatório. </span>                        
+                                                        
+                            <input type="submit" value="Enviar" class="btn btn-primary my-1"><br>
                             
                             <small id="campos">* Campos obrigatórios</small>
                             </div>
-                        </div> 
-
-                        <div class="col-sm-12">
-                            
-                        </div>      
-
-                        
+                        </div>                                       
                     </form>
             </article>
             </main>
